@@ -2,7 +2,12 @@
 name = "djangoproject"
 version = "0.1.0"
 description = "Add your description here"
-requires-python = ">=3.9"
+requires-python = ">=3.13"
 dependencies = [
+    "aiohttp>=3.14.5",
     "django>=4.2.30",
+    "django-extensions>=4.1",
+    "djangorestframework>=3.16.1",
+    "environs>=14.4.0",
+    "requests>=2.32.5",
 ]

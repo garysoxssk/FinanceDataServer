@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Data Viewer</title>
+</head>
+
+{% block content %}
+<body>
+    <h1>Dummy orders exported</h1>
+    <p>Saved {{ order_count }} orders to {{ output_path }}.</p>
+    <p>The CSV is stored locally. No HTTP requests were made.</p>
+</body>
+{% endblock %}
+
+</html>
